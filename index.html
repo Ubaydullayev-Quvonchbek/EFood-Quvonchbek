@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>EFood</title>
+</head>
+
+<body>
+
+    <header class="header1">
+        <nav class="nav1">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-3">
+                        <div class="logo-div">
+                            <img src="./img/EFood.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="nav-right d-flex justify-content-between">
+                            <ul class="list">
+                                <li class="list-item">Home</li>
+                                <li class="list-item">Service</li>
+                                <li class="list-item">Top cities</li>
+                                <li class="list-item">Contract</li>
+                            </ul>
+                            <div class="icons d-flex align-items-center">
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                                <i class="fa-regular fa-cart-shopping"></i>
+                            </div>
+                            <div class="btn-div">
+                                <button class="btn">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-body">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 d-flex align-items-center">
+                        <div class="hb-left">
+                            <h1 class="super-fast">Super Fast <span class="txt-color">Food
+                                    Delivery</span> Service</h1>
+                            <p class="paragraf">We provide super fast-delivery service. Let’s use our <br> services
+                                right now and get discounts of up to 50%</p>
+                            <div class="bb">
+                                <button class="ex-btn">Explore Food</button>
+                                <a class="d-app" href="#!">Download App</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="hb-right">
+                            <div class="position-images">
+                                <div class="imp-img">
+                                    <img class="scooter-guy" src="./img/Scooter Guy.png" alt="" important>
+                                    <img class="img1" src="./img/Time (1).png" alt="">
+                                    <img class="img2" src="./img/Time.png" alt="">
+                                    <img class="img3" src="./img/Happy customer.png" alt="">
+                                    <img class="img4" src="./img/Send shape.png" alt="">
+                                    <img class="img5" src="./img/Doubble sandwich.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sect1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="txt-pop">Our popular <span class="txt-color">Category</span></h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="h-cards d-flex justify-content-between">
+                                    <div class="h-card1">
+                                        <div class="button-top d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-burger"></i>
+                                            <p class="btn-text">Burger</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (3).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Cheeseburger With Salad</p>
+                                                <p class="price">$18.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-pizza-slice fa-other"></i>
+                                            <p class="btn-text_other">Pizza</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img class="burger" src="./img/Burger.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Beef Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-hotdog fa-other"></i>
+                                            <p class="btn-text_other">Hotdog</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (2).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Royel Cheeseburger</p>
+                                                <p class="price">$16.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-drumstick-bite fa-other"></i>
+                                            <p class="btn-text_other">Asian Food</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (1).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Black Gambugrer</p>
+                                                <p class="price">$14.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-utensils fa-other"></i>
+                                            <p class="btn-text_other">Set Menu</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Chicken Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="h-cards d-flex justify-content-between">
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-burger fa-other"></i>
+                                            <p class="btn-text_other">Burger</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (3).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Cheeseburger With Salad</p>
+                                                <p class="price">$18.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-pizza-slice"></i>
+                                            <p class="btn-text">Pizza</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img class="burger" src="./img/Burger.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Beef Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-hotdog fa-other"></i>
+                                            <p class="btn-text_other">Hotdog</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (2).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Royel Cheeseburger</p>
+                                                <p class="price">$16.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-drumstick-bite fa-other"></i>
+                                            <p class="btn-text_other">Asian Food</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (1).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Black Gambugrer</p>
+                                                <p class="price">$14.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-utensils fa-other"></i>
+                                            <p class="btn-text_other">Set Menu</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Chicken Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="h-cards d-flex justify-content-between">
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-burger fa-other"></i>
+                                            <p class="btn-text_other">Burger</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (3).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Cheeseburger With Salad</p>
+                                                <p class="price">$18.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-pizza-slice fa-other"></i>
+                                            <p class="btn-text_other">Pizza</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img class="burger" src="./img/Burger.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Beef Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-hotdog"></i>
+                                            <p class="btn-text">Hotdog</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (2).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Royel Cheeseburger</p>
+                                                <p class="price">$16.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-drumstick-bite fa-other"></i>
+                                            <p class="btn-text_other">Asian Food</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (1).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Black Gambugrer</p>
+                                                <p class="price">$14.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-utensils fa-other"></i>
+                                            <p class="btn-text_other">Set Menu</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Chicken Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="h-cards d-flex justify-content-between">
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-burger fa-other"></i>
+                                            <p class="btn-text_other">Burger</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (3).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Cheeseburger With Salad</p>
+                                                <p class="price">$18.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-pizza-slice fa-other"></i>
+                                            <p class="btn-text_other">Pizza</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img class="burger" src="./img/Burger.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Beef Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-hotdog fa-other"></i>
+                                            <p class="btn-text_other">Hotdog</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (2).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Royel Cheeseburger</p>
+                                                <p class="price">$16.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-drumstick-bite"></i>
+                                            <p class="btn-text">Asian Food</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (1).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Black Gambugrer</p>
+                                                <p class="price">$14.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-utensils fa-other"></i>
+                                            <p class="btn-text_other">Set Menu</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Chicken Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="h-cards d-flex justify-content-between">
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-burger fa-other"></i>
+                                            <p class="btn-text_other">Burger</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (3).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Cheeseburger With Salad</p>
+                                                <p class="price">$18.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-pizza-slice fa-other"></i>
+                                            <p class="btn-text_other">Pizza</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img class="burger" src="./img/Burger.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Beef Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-hotdog fa-other"></i>
+                                            <p class="btn-text_other">Hotdog</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (2).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Royel Cheeseburger</p>
+                                                <p class="price">$16.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top_other d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-drumstick-bite fa-other"></i>
+                                            <p class="btn-text_other">Asian Food</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1 (1).png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Black Gambugrer</p>
+                                                <p class="price">$14.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-card1">
+                                        <div class="button-top d-flex justify-content-evenly align-items-center">
+                                            <i class="fa-regular fa-utensils"></i>
+                                            <p class="btn-text">Set Menu</p>
+                                        </div>
+                                        <div class="card-bottom">
+                                            <div class="bc-top">
+                                                <img src="./img/item_01-480x480 1.png" alt="">
+                                                <img src="./img/Star.png" alt="">
+                                            </div>
+                                            <div class="bc-bottom">
+                                                <p class="burger-name">Chicken Burger</p>
+                                                <p class="price">$15.00</p>
+                                                <div class="btn-card">
+                                                    <button class="add">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <div class="sect-left">
+                        <div class="guy-girl-png">
+                            <img src="./img/food delivery 4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sect-right">
+                        <div class="no-name">
+                            <h1 class="stay"><span class="txt-color">Stay</span> at home, we will <br> Provide <span
+                                    class="txt-color">good food</span></h1>
+                            <p class="paragraf-txt">We provide tasty food and superfast delivery at <br> your home.
+                                Let’s use our services right now and <br> get discounts of up to 50%.</p>
+                        </div>
+                        <div class="bot-name">
+                            <div class="layer1 d-flex align-items-center">
+                                <i class="fa-regular fa-stopwatch layer-icon1"></i>
+                                <p class="layer-txt">fasted delivery in 30 Minutes</p>
+                            </div>
+                            <div class="layer2 d-flex align-items-center">
+                                <i class="fa-regular fa-motorcycle layer-icon2"></i>
+                                <p class="layer-txt">300+ delivery men</p>
+                            </div>
+                            <div class="layer3 d-flex align-items-center">
+                                <i class="fa-regular fa-shop layer-icon3"></i>
+                                <p class="layer-txt">500+ restaurant & cafe shop</p>
+                            </div>
+                        </div>
+                        <div class="foot-btn">
+                            <button class="see">See more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="restaurant">Top Food<span class="txt-color"> Restaurant</span></h1>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-4">
+                    <div class="obj-card mb-4">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53.png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">Blaze Pizza</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">11.00 AM - 10.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="obj-card mb-4">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53 (1).png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">Pizza Ranch</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">09.00 AM - 10.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="obj-card mb-4">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53 (2).png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">Dion’s Pizza Hut</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">10.00 AM - 12.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center mar-bot">
+                <div class="col-4">
+                    <div class="obj-card">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53 (3).png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">Royel Burger</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">11.00 AM - 10.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="obj-card">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53 (4).png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">KFC Restaurant</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">09.00 AM - 10.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="obj-card">
+                        <div class="card-top">
+                            <img class="c-top" src="./img/Rectangle 53 (5).png" alt="">
+                        </div>
+                        <div class="card-bottoms">
+                            <p class="blaze">Star Food</p>
+                            <div class="d-flex align-items-center">
+                                <p class="data-time">10.00 AM - 12.00 PM</p>
+                                <i class="fa-regular fa-arrow-right right-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="dad">
+                        <h1 class="mobapp">Download Our<span class="txt-color"> Mobile App</span></h1>
+                        <p class="it">It's all at your fingertips -- the restaurants you love. Find <br> the right food
+                            to
+                            suit your mood, and make the first bite <br> last. Go ahead, download app and get 50%
+                            discount
+                        </p>
+                        <div class="store-apps d-flex align-items-center">
+                            <div class="tac">
+                                <img class="apps-png" src="./img/Store=App Store, Style=Black.svg" alt="">
+                            </div>
+                            <div class="tac">
+                                <img class="apps-png" src="./img/Store=Google Play, Style=Black.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="image">
+                        <div class="png-img">
+                            <img src="./img/Group 178.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="out">What Our Client Are<span class="txt-color"> Saying</span></h1>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <div class="ddr">
+                        <div class="imug">
+                            <img src="./img/Rectangle 8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <div class="nft">
+                        <div class="e-top">
+                            <p class="efood-txt">EFood has the most intriguing food order system in the <br>
+                                country. UI in
+                                both their app and web Is very simple and <br> easy to use, enhancing the UX. Their
+                                delivery
+                                men are also <br> quite professional and knows the neighborhood well. Till <br> now
+                                I never
+                                had to guide them to my address for delivery;</p>
+                        </div>
+                        <div class="boty">
+                            <p class="txt-col">Anglina Jole</p>
+                            <p class="opc">Food lover</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="b for">
+                        <h1 class="gg">Subscribe to get the Latest Offer</h1>
+                        <p class="gf">Get our daily updates by subscribing to our newspaper, please drop your email
+                            below</p>
+                        <form>
+                            <input class="e2ya" type="text" placeholder="Enter your email addres">
+                            <button class="sub">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot1">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-2">
+                    <div class="im-dv">
+                        <img src="./img/EFood.svg" alt="">
+                    </div>
+                    <div class="lol">
+                        <div class="lol1 d-flex align-items-center">
+                            <i class="fa-regular fa-location-dot wwe"></i>
+                            <p class="loc">Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="lol1 d-flex align-items-center">
+                            <i class="fa-regular fa-phone-volume ddf"></i>
+                            <p class="loc">0943833399</p>
+                        </div>
+                        <div class="lol1 d-flex align-items-center">
+                            <i class="fa-regular fa-envelope ddf"></i>
+                            <p class="loc">support@efood.com</p>
+                        </div>
+                        <div class="lol2 d-flex align-items-center">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <ul class="list1">
+                        <li class="dollor1 dollor">Service</li>
+                        <li class="dollor1">How it works</li>
+                        <li class="dollor1">Home delivery</li>
+                        <li class="dollor1">Prducts</li>
+                        <li class="dollor1">Menu</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list1">
+                        <li class="dollor1 dollor">Company</li>
+                        <li class="dollor1">About Us</li>
+                        <li class="dollor1">News</li>
+                        <li class="dollor1">Our trusted partner</li>
+                        <li class="dollor1">New users FAQ</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list1">
+                        <li class="dollor1 dollor">Supports</li>
+                        <li class="dollor1">Help center</li>
+                        <li class="dollor1">Feedbcak</li>
+                        <li class="dollor1">Contact us</li>
+                        <li class="dollor1">Terms conditins</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list1">
+                        <li class="dollor1 dollor">Resources</li>
+                        <li class="dollor1">Download app</li>
+                        <li class="dollor1">Blog</li>
+                        <li class="dollor1">What’s new</li>
+                        <li class="dollor1">Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <p class="service">© 2021 EFood - All rights reserved.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <p class="r-txt">Privacy</p>
+                    <p class="r-txt">Security</p>
+                    <p class="r-txt">Terms</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
